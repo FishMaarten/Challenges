@@ -12,12 +12,11 @@ We could vote on what the best approach was and feature this version
 Any suggestions can be added to the SUGGESTIONS.md  
 
 ### How to contribute  
+ALWAYS: "git pull master" first to update the repository  
 1. Change directory to the correct challenge  
 2. Paste your challenge and suffix your name  
 3. Add and commit your file with appropriate message  
 4. Push the commit upstream  
-
-Remember: "git pull master" will update your directory with latest commits  
 
 ### Commit & message convention  
 Try to follow these simples rules when making a commit:  
