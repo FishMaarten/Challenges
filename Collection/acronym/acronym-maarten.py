@@ -2,7 +2,7 @@ import re
 
 def abbreviate(string):
     all_upper = re.findall(r"[A-Z]{2,}", string)
-    if len(all_upper) >=1 :
+    if len(all_upper) >= 2:
         return all_upper[0]
     
     result = ""
