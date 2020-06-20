@@ -9,4 +9,4 @@ names = [f".*{name}.*" for name in names]
 challenges = {d:[f for f in listdir(join(abs_path, d)) for name in names if re.match(name, f)] for d in listdir(abs_path)}
 
 for k,v in challenges.items():
-    if len(v) > 1: print(f"{len(v)} in {k}: " + str([re.sub("[^A-z]","",name)for name in names if re.match(name, str(v))]))
+    if len(v) > 1: print(f"{len(v)} in {k}: " + " ".join([re.sub("[^A-z]","",name)for name in names if re.match(name, str(v))]))
